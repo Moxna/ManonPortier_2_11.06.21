@@ -2,25 +2,85 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
+        <link rel ="stylesheet" href="stylereservia.css"/>
+        <script src="https://kit.fontawesome.com/9747227237.js" crossorigin="anonymous"></script>
         <title>Réservia</title>
     </head>
     <body>
 
+<!---Nav--->
     <nav>
         <ul class=nav>
-            <li class="navitem"><a href="#">Hébergements</a></li>
-            <li class="navitem"><a href="#">Activités</a></li>
-            <li class="navitem"><a href="#">S'inscrire</a></li>
-        </ul-class>
+            <li class="navitem"><img src="pics/Reservia.svg"></li>
+            <li class="navitem-hosts">Hébergements</li>
+            <li class="navitem-activs">Activités</li>
+            <li class="navitem-signup">S'inscrire</li>
+        </ul>
     </nav>
 
-        <img src="pics/Reservia.svg">
-        <br>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-        
-<input type="search">
+<!---Entête, barre de recherche--->
+        <p class="trouvez"><strong>Trouvez votre hébergement pour des vacances de rêve</strong></p>
+        <p class="baseline">En plein centre ville ou en pleine nature</p>
+        <i class="fas fa-map-marker-alt position"></i>
+    <input type="search" class="search">
        <aria-label=Search through site content>
-<button>Search</button>
+       <button class="rechercher">Rechercher</button>
+
+<!---Filtres--->
+        <div class="filters"><p class="filters"><strong>Filtres</strong></p>
+        <ul class="selects">
+            <li class="etiq">
+                <i class="fas fa-money-bill-wave"></i>
+                <span>Économique</span>
+            </li>
+            <li class="etiq">
+                <i class="fas fa-child"></i>
+                <span>Famillial</span>
+            </li>
+            <li class="etiq">
+                <i class="fas fa-heart"></i>
+                <span>Romantique</span>
+            </li>
+            <li class="etiq">
+                <i class="fas fa-dog"></i>
+                <span>Animaux autorisés</span>
+            </li>
+        </ul></div>
+
+<!---Information : nombre de logements dispos--->
+        <div class="info"><i class="fas fa-info"></i>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p></div>
+
+<!---Section hébergements à Marseille + Populaires--->
+    <div class="toprow">
+        <div class="hostsection">
+                <p class="hostsmarseilletitle"><strong>Hébergements à Marseille</strong></p>
+            <div class="hosttop">
+                <p><img src="pics/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="lacannebiere" alt="lacannebiere"/></p>
+                <p><img src="pics/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="hotelduport" alt="hotelduport"/></p>
+                <p><img src="pics/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="hotellesmouettes" alt="hotellesmouettes"/></p>
+            </div>
+            <div class="hostbottom">
+                <p><img src="pics/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" class="hoteldelamer" alt="hoteldelamer"/></p>
+                <p><img src="pics/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="aubergelepanier" alt="aubergelepanier"/></p>
+                <p><img src="pics/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" class="hotelchezamina" alt="hotelchezamina"/></p>
+            </div>
+        <p class="showmemore"><strong>Afficher plus</strong></p>
+        </div>
+        <div class="famous">
+            <p class="famoustitle"><strong>Les plus populaires</strong></p>
+        </div>
+    </div>
+
+<!---Section activités à Marseille--->
+    <p class="activitiesmarseilletitle"><strong>Activités à Marseille</strong></p>
+    <p><img src="pics/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="vieuxport" alt="vieuxport"/></p>
+    <p><img src="pics/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="fortdepomegues" alt="fortdepomegues"/></p>
+    <p><img src="pics/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="ilesdufrioul" alt="ilesdufrioul"/></p>
+    <p><img src="pics/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="parcdecalanques" alt="parcdecalanques"/></p>
+    <p><img src="pics/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="lagarde" alt="lagarde"/></p>
+    <p><img src="pics/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" class="longchamp" alt="longchamp"/></p>
+
+
     </body>
     </html>
