@@ -1,3 +1,6 @@
+
+/*All*/
+
 *
 {
     padding: 0;
@@ -11,6 +14,8 @@ body
 {
     font-family: 'Raleway' , sans-serif;
 }
+
+/*Nav*/
 
 .nav
 {
@@ -57,6 +62,8 @@ body
     margin-left: 2rem;
 }
 
+/*Header*/
+
 .trouvez
 {
     margin-right: auto;
@@ -73,6 +80,8 @@ body
     margin-bottom: 1rem;
 }
 
+/*Barre de recherche*/
+
 .search
 {
     margin-left: 2rem;
@@ -81,17 +90,17 @@ body
 
 .rechercher
 {
-display: inline-block;
-background-color: #0065FC;
-border-radius: 0px 10px 10px 0px;
-border: none;
-color: #eeeeee;
-text-align: center;
-font-size: 15px;
-padding: 10px;
-width: 100px;
-cursor: pointer;
-margin: 5px;
+    display: inline-block;
+    background-color: #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    margin: 5px;
 }
 
 .position
@@ -106,6 +115,7 @@ margin: 5px;
     border-radius: 10px 0px 0px 10px;
 }
 
+/*Barre de filtres*/
 
 .filters
 {
@@ -145,6 +155,7 @@ margin: 5px;
     margin: 0px 15px 0px 10px;
 }
 
+/*Ligne information logements*/
 
 .info
 {
@@ -165,11 +176,15 @@ margin: 5px;
     border-radius: 50px;
 }
 
+/*TOPROW*/
+
 .toprow
 {
     flex-direction: row;
     display: flex;
 }
+
+/*Hébergements à Marseille*/
 
 .hostsmarseilletitle
 {
@@ -184,9 +199,14 @@ margin: 5px;
     flex-direction: column;
     width: 60%;
     padding: 1rem;
-    margin: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     border-radius: 30px;
 }
+
+/*Top blocs*/
 
 .hosttop
 {
@@ -195,26 +215,122 @@ margin: 5px;
     padding-left: 2rem;
 }
 
+/*La cannebiere*/
+
+.bloccannebiere
+{
+    width: 200px;
+    height: 185px;
+    background-color: white;
+    padding: 4px;
+    margin-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 5px 5px #DAEBEB;
+}
+
+.txttitlecannebiere
+{
+    font-size: 13px;
+    margin: 5px;
+}
+
+.txtnuitcannebiere
+{
+    font-size: 12px;
+    margin: 5px;
+}
+
+.starbloccannebiere
+{
+    padding: 5px;
+    color: #0065FC;;
+}
+
+
 .lacannebiere
 {
-    width: 250px;
-    height: 150px;
-    padding-right: 20px;
+    width: 192px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/*Hotel du port*/
+
+.blochotelduport
+{
+    width: 200px;
+    height: 185px;
+    background-color: white;
+    padding: 4px;
+    margin-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 5px 5px #DAEBEB;
+}
+
+.txttitlehotelduport
+{
+    font-size: 13px;
+    margin: 5px;
+}
+
+.txtnuithotelduport
+{
+    font-size: 12px;
+    margin: 5px;
+}
+
+.starblochotelduport
+{
+    padding: 5px;
+    color: #0065FC;;
 }
 
 .hotelduport
 {
-    width: 250px;
-    height: 150px;
-    padding-right: 20px;
+    width: 192px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/*Hotel les mouettes*/
+
+.blochotellesmouettes
+{
+    width: 200px;
+    height: 185px;
+    background-color: white;
+    padding: 4px;
+    margin-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 5px 5px #DAEBEB;
+}
+
+.txttitlehotellesmouettes
+{
+    font-size: 13px;
+    margin: 5px;
+}
+
+.txtnuithotellesmouettes
+{
+    font-size: 12px;
+    margin: 5px;
+}
+
+.starblochotellesmouettes
+{
+    padding: 5px;
+    color: #0065FC;;
 }
 
 .hotellesmouettes
 {
-    width: 250px;
-    height: 150px;
-    padding-right: 20px;
+    width: 192px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
 }
+
+/*Bottom blocs*/
 
 .hostbottom
 {
@@ -224,31 +340,128 @@ margin: 5px;
     padding-top: 1rem;
 }
 
+/*Hotel de la mer*/
+
+.blochoteldelamer
+{
+    width: 200px;
+    height: 185px;
+    background-color: white;
+    padding: 4px;
+    margin-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 5px 5px #DAEBEB;
+}
+
+.txttitlehoteldelamer
+{
+    font-size: 13px;
+    margin: 5px;
+}
+
+.txtnuithoteldelamer
+{
+    font-size: 12px;
+    margin: 5px;
+}
+
+.starblochoteldelamer
+{
+    padding: 5px;
+    color: #0065FC;;
+}
+
 .hoteldelamer
 {
-    width: 250px;
-    height: 150px;
-    padding-right: 20px;
+    width: 192px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/*Auberge le panier*/
+
+.blocaubergelepanier
+{
+    width: 200px;
+    height: 185px;
+    background-color: white;
+    padding: 4px;
+    margin-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 5px 5px #DAEBEB;
+}
+
+.txttitleaubergelepanier
+{
+    font-size: 13px;
+    margin: 5px;
+}
+
+.txtnuitaubergelepanier
+{
+    font-size: 12px;
+    margin: 5px;
+}
+
+.starblocaubergelepanier
+{
+    padding: 5px;
+    color: #0065FC;;
 }
 
 .aubergelepanier
 {
-    width: 250px;
-    height: 150px;
-    padding-right: 20px;
+    width: 192px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/*Hotel chez amina*/
+
+.blochotelchezamina
+{
+    width: 200px;
+    height: 185px;
+    background-color: white;
+    padding: 4px;
+    margin-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 5px 5px #DAEBEB;
+}
+
+.txttitlehotelchezamina
+{
+    font-size: 13px;
+    margin: 5px;
+}
+
+.txtnuithotelchezamina
+{
+    font-size: 12px;
+    margin: 5px;
+}
+
+.starblochotelchezamina
+{
+    padding: 5px;
+    color: #0065FC;;
 }
 
 .hotelchezamina
 {
-    width: 250px;
-    height: 150px;
-    padding-right: 20px;
+    width: 192px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
 }
+
+/*Show me more*/
 
 .showmemore
 {
     padding: 2rem;
 }
+
+/*Les plus populaires*/
 
 .famous
 {
@@ -257,7 +470,9 @@ margin: 5px;
     box-sizing: content-box;
     width: 40%;
     padding: 1rem;
-    margin: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     border-radius: 30px;
 }
 
@@ -265,4 +480,47 @@ margin: 5px;
 {
     padding: 2rem;
     font-size: large;
+}
+
+/*Hotel le soleil du matin*/
+
+.blochotellesoleil
+{
+    flex-direction: row;
+    width: 410px;
+    height: 120px;
+    background-color: white;
+    padding: 4px;
+    margin-left: 30px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 5px 5px #DAEBEB;
+}
+
+.txttitlehotellesoleil
+{
+    font-size: 13px;
+    margin: 5px;
+    padding-top: 5px;
+}
+
+.txtnuithotellesoleil
+{
+    font-size: 12px;
+    margin: 5px;
+}
+
+.starblochotellesoleil
+{
+    padding: 5px;
+    color: #0065FC;
+    padding-top: 40px;
+}
+
+.hotellesoleil
+{
+    height: 112px;
+    width: auto;
+    border-radius: 10px 0px 0px 10px;
+    position: absolute;
+    clip: rect(0px,110px,142px,0px);
 }
