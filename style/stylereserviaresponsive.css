@@ -45,6 +45,31 @@
 .trouvez {
     margin-top: 5rem;
     margin-bottom: 1rem;
+    padding-left: 0px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.baseline
+{
+    padding-left: 0px;
+    margin-left: 1rem;
+}
+
+.searchform
+{
+    margin-left: 1rem;
+}
+
+.filters
+{
+    padding-left: 0px;
+    margin-left: 1rem;
+}
+
+.filters p
+{
+    padding-left: 0px;
 }
 
 .info
@@ -89,6 +114,7 @@
 .etiq
 {
     margin: 5px;
+    margin-left: 0px;
 }
 
 .hostsection {
@@ -111,6 +137,8 @@
 .blochotelmarseille {
     width: 90%;
     margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .showmemore
@@ -123,7 +151,6 @@
     flex-direction: column;
     padding: 0px;
     margin: 0px;
-    margin-left: 1rem;
 }
 
 .activitiesmarseilletitle
@@ -150,6 +177,8 @@
     width: 90%;
     height: 150px;
     margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .imgmobile
@@ -162,8 +191,9 @@
 {
     flex-direction: column;
     align-items: left;
-    padding-left: 2rem;
+    padding-left: 1rem;
     margin-top: 50px;
+    padding-top: 20px;
 }
 
 .footercolumn 
