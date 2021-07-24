@@ -1,81 +1,183 @@
+.nav {
+    justify-content: flex-start;
+}
 
-    
-    .filters 
-    {
-        width: 100%;
-    }
+.navitem-hosts, .navitem-activs {
+    position: absolute;
+    top: 2rem;
+    margin: 0rem;
+    border-bottom: 3px #F2F2F2 solid;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+}
 
-    .selects
-    {
-        width: 100%;
-    }
+.navitem-hosts:hover, .navitem-activs:hover
+{
+    border-top: none;
+    border-bottom-color: #0065FC;
+    color: #0065FC;
+}
 
-    .etiq
-    {
-        width: 100%;
-    }
-    
-    .etiqspan
-    {
-        width: 100%;
-    }
+.navitem:first-child
+{
+    margin-left: 1rem;
+}
 
-    .info
-    {
-        width: 100%;
-    }
+.navitem-hosts {
+    left: 0rem;
+}
 
-    .info i
-    {
-        width: 100%;
-    }
+.navitem-activs {
+    right: 0rem;
+}
 
-    .hostsection
-    {
-        width: 100%;
-    }
+.rechercher i {
+    display: block;
+    visibility: visible;
+}
 
-    .hosttop
-    {
-        width: 100%;
-    }
+.rechercher span {
+    display: none;
+    visibility: hidden;
+}
 
-    .bloccannebiere
-    {
-        width: 100%;
-    }
+.trouvez {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
 
-    .blochotelduport
-    {
-        width: 100%;
-    }
+.info
+{
+    padding: 0px;
+    margin-left: 1rem;
+}
 
-    .blochotellesmouettes
-    {
-        width: 100%;
-    }
+.toprow {
+    flex-direction: column-reverse;
+}
 
-    .hostbottom
-    {
-        width: 100%;
-    }
+.famous {
+    width: 100%;
+    padding: 0rem;
+}
 
-    .blochoteldelamer
-    {
-        width: 100%;
-    }
+.entetefamous {
+    margin: 0rem 1rem;
+}
 
-    .blocaubergelepanier
-    {
-        width: 100%;
-    }
+.blochotel {
+    margin: 1rem;
+    width: 90%;
+}
 
-    .blochotelchezamina
-    {
-        width: 100%;
-    }
+.filters {
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-    .famous
-    {
-        width: 100%;
-    }
+.filters p {
+    margin-bottom: 10px;
+}
+
+.selects
+{
+    padding: 0rem;
+    flex-wrap: wrap;
+}
+
+.etiq
+{
+    margin: 5px;
+}
+
+.hostsection {
+    width: 100%;
+    background-color: white;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.hostsmarseilletitle {
+    padding: 0rem 0rem 0rem 1rem;
+}
+.hosttop, .hostbottom {
+    flex-direction: column;
+    padding: 0rem;
+    align-items: center;
+    margin: 0px;
+}
+
+.blochotelmarseille {
+    width: 90%;
+    margin-top: 2rem;
+}
+
+.showmemore
+{
+    padding-left: 0px;
+    margin-left: 1rem;
+}
+
+.rowactivities {
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 1rem;
+}
+
+.activitiesmarseilletitle
+{
+    margin-left: 1rem;
+    padding-left: 0px;
+}
+
+.column2, .column1
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.blocmoyen
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.blocmobile 
+{
+    width: 90%;
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.imgmobile
+{
+    width: 100%;
+    height: 100px;
+}
+
+.blocfooter 
+{
+    flex-direction: column;
+    align-items: left;
+    padding-left: 2rem;
+    margin-top: 50px;
+}
+
+.footercolumn 
+{
+    width: 100%;
+}
+
+.footertitle 
+{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.footertxt 
+{
+    font-size: 14px;
+}

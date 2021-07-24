@@ -90,7 +90,7 @@ body
 
 .search
 {
-    width: 200px;
+    width: 190px;
     border-top: 1px #F2F2F2 solid;
     border-bottom: 1px #F2F2F2 solid;
     border-left: none;
@@ -115,8 +115,12 @@ body
     text-align: center;
     font-size: 15px;
     padding: 15px;
-    width: 110px;
     cursor: pointer;
+}
+
+.rechercher i {
+    display: none;
+    visibility: hidden;
 }
 
 .position
@@ -131,16 +135,18 @@ body
 
 .filters
 {
-    padding: 1rem;
+    margin: 2rem 1rem;
     display: flex;
     align-items: center;
 }
 
+.filters p {
+    padding-left: 1rem;
+}
+
 .selects
 {
-    padding: 2rem;
     display: flex;
-    align-items: center;
 }
 
 .etiq
@@ -172,6 +178,7 @@ body
     display: flex;
     flex-direction: row;
     padding-left: 2rem;
+    align-items: center;
 }
 
 .info i
@@ -179,10 +186,7 @@ body
     margin-right: 10px;
     color: #0065FC;
     border: #D5D2D6 solid 1px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;;
+    padding: 10px 15px;
     border-radius: 50px;
 }
 
@@ -216,18 +220,9 @@ body
     border-radius: 30px;
 }
 
-/*Top blocs*/
+/*Style blocs hébergements à Marseille*/
 
-.hosttop
-{
-    display: flex;
-    flex-direction: row;
-    padding-left: 2rem;
-}
-
-/*La cannebiere*/
-
-.bloccannebiere
+.blochotelmarseille
 {
     width: 30%;
     background-color: white;
@@ -237,19 +232,19 @@ body
     box-shadow: 10px 5px 5px #DAEBEB;
 }
 
-.txttitlecannebiere
+.txttitle
 {
     font-size: 18px;
     margin: 5px;
 }
 
-.txtnuitcannebiere
+.txtnuit
 {
     font-size: 15px;
     margin: 5px;
 }
 
-.starbloccannebiere
+.starbloc
 {
     padding: 5px;
     color: #0065FC;;
@@ -260,6 +255,16 @@ body
     color: #F2F2F2;
 }
 
+/*Hosttop*/
+
+.hosttop
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+}
+
+/*La cannebiere*/
 
 .lacannebiere
 {
@@ -270,34 +275,6 @@ body
 
 /*Hotel du port*/
 
-.blochotelduport
-{
-    width: 30%;
-    background-color: white;
-    padding: 4px;
-    margin-right: 20px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 10px 5px 5px #DAEBEB;
-}
-
-.txttitlehotelduport
-{
-    font-size: 18px;
-    margin: 5px;
-}
-
-.txtnuithotelduport
-{
-    font-size: 15px;
-    margin: 5px;
-}
-
-.starblochotelduport
-{
-    padding: 5px;
-    color: #0065FC;;
-}
-
 .hotelduport
 {
     width: 100%;
@@ -306,34 +283,6 @@ body
 }
 
 /*Hotel les mouettes*/
-
-.blochotellesmouettes
-{
-    width: 30%;
-    background-color: white;
-    padding: 4px;
-    margin-right: 20px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 10px 5px 5px #DAEBEB;
-}
-
-.txttitlehotellesmouettes
-{
-    font-size: 18px;
-    margin: 5px;
-}
-
-.txtnuithotellesmouettes
-{
-    font-size: 15px;
-    margin: 5px;
-}
-
-.starblochotellesmouettes
-{
-    padding: 5px;
-    color: #0065FC;;
-}
 
 .hotellesmouettes
 {
@@ -349,38 +298,10 @@ body
     display: flex;
     flex-direction: row;
     padding-left: 2rem;
-    padding-top: 1rem;
+    margin-top: 1rem;
 }
 
 /*Hotel de la mer*/
-
-.blochoteldelamer
-{
-    width: 30%;
-    background-color: white;
-    padding: 4px;
-    margin-right: 20px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 10px 5px 5px #DAEBEB;
-}
-
-.txttitlehoteldelamer
-{
-    font-size: 18px;
-    margin: 5px;
-}
-
-.txtnuithoteldelamer
-{
-    font-size: 15px;
-    margin: 5px;
-}
-
-.starblochoteldelamer
-{
-    padding: 5px;
-    color: #0065FC;;
-}
 
 .hoteldelamer
 {
@@ -391,34 +312,6 @@ body
 
 /*Auberge le panier*/
 
-.blocaubergelepanier
-{
-    width: 30%;
-    background-color: white;
-    padding: 4px;
-    margin-right: 20px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 10px 5px 5px #DAEBEB;
-}
-
-.txttitleaubergelepanier
-{
-    font-size: 18px;
-    margin: 5px;
-}
-
-.txtnuitaubergelepanier
-{
-    font-size: 15px;
-    margin: 5px;
-}
-
-.starblocaubergelepanier
-{
-    padding: 5px;
-    color: #0065FC;;
-}
-
 .aubergelepanier
 {
     width: 100%;
@@ -427,34 +320,6 @@ body
 }
 
 /*Hotel chez amina*/
-
-.blochotelchezamina
-{
-    width: 30%;
-    background-color: white;
-    padding: 4px;
-    margin-right: 20px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 10px 5px 5px #DAEBEB;
-}
-
-.txttitlehotelchezamina
-{
-    font-size: 18px;
-    margin: 5px;
-}
-
-.txtnuithotelchezamina
-{
-    font-size: 15px;
-    margin: 5px;
-}
-
-.starblochotelchezamina
-{
-    padding: 5px;
-    color: #0065FC;;
-}
 
 .hotelchezamina
 {
@@ -505,9 +370,9 @@ body
     font-size: 23px;
 }
 
-/*Hotel le soleil du matin*/
+/*Style blocs hotels famous*/
 
-.blochotellesoleil
+.blochotel
 {
     display: flex;
     flex-direction: row;
@@ -515,37 +380,41 @@ body
     background-color: white;
     padding: 4px;
     margin-bottom: 30px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     box-shadow: 10px 5px 5px #DAEBEB;
 }
 
-.blochotellesoleil2
+.hotel
 {
     padding-left: 10px;
     padding-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-.txttitlehotellesoleil
+.txttitlehotel
 {
     font-size: 18px;
-    margin: 5px;
+    margin: 5px; 
 
 }
 
-.txtnuithotellesoleil
+.txtnuithotel
 {
     font-size: 15px;
     margin: 5px;
 
 }
 
-.starblochotellesoleil
+.starblochotel
 {
     
     color: #0065FC;
-    padding-top: 60px;
-
+    margin-top: auto;
+    margin-bottom: 10px;
 }
+
+/*Hotel le soleil*/
 
 .hotellesoleil
 {
@@ -558,45 +427,6 @@ body
 
 /*Au coeur de l'eau*/
 
-.blocaucoeurdeleau
-{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: white;
-    padding: 4px;
-    margin-bottom: 30px;
-    margin-top: 15px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 10px 5px 5px #DAEBEB;
-}
-
-.blocaucoeurdeleau2
-{
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-
-.txttitleaucoeurdeleau
-{
-    font-size: 18px;
-    margin: 5px;
-
-}
-
-.txtnuitaucoeurdeleau
-{
-    font-size: 15px;
-    margin: 5px;
-}
-
-.starblocaucoeurdeleau
-{
-    color: #0065FC;
-    padding-top: 60px;
-}
-
 .aucoeurdeleau
 {
     height: 170px;
@@ -607,45 +437,6 @@ body
 }
 
 /*Hotel tout bleu tout blanc*/
-
-.blochoteltoutbleutoutblanc
-{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: white;
-    padding: 4px;
-    margin-top: 15px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 10px 5px 5px #DAEBEB;
-}
-
-.blochoteltoutbleutoutblanc2
-{
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-
-.txttitlehoteltoutbleutoutblanc
-{
-    font-size: 18px;
-    margin: 5px;
-
-}
-
-.txtnuithoteltoutbleutoutblanc
-{
-    font-size: 15px;
-    margin: 5px;
-}
-
-.starblochoteltoutbleutoutblanc
-{
-    padding: 5px;
-    color: #0065FC;
-    padding-top: 80px;
-}
 
 .hoteltoutbleutoutblanc
 {
@@ -668,13 +459,15 @@ body
 {
     flex-direction: row;
     display: flex;
-    padding-left: 2rem;
     padding-bottom: 5rem;
+    margin-left: 2rem;
 }
 
-/*Column 1*/
-
-/*Vieux port*/
+.txtactivities
+{
+    padding: 10px;
+    padding-left: 20px;
+}
 
 .column1
 {
@@ -683,42 +476,47 @@ body
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 10px 5px 5px #DAEBEB;
-}
+    margin-right: 2rem;
 
-.vieuxport
-{
-    height: 550px;
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
 }
-
-.txtvieuxport
-{
-    padding: 10px;
-    padding-left: 20px;
-}
-
-/*Column 2*/
 
 .column2
 {
     display: flex;
     flex-direction: column;
     width: 25%;
+    margin-right: 2rem;
+
 }
 
-/*Fort de Pomègues 2*/
-
-.fortdepomegues
+.blocmoyen
 {
-
     height: 350px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 10px 5px 5px #DAEBEB;
-    margin-left: 40px;
     margin-bottom: 40px;
 }
+
+.petitbloc
+{
+    height: 210px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 5px 5px #DAEBEB;
+}
+
+
+/*Vieux port*/
+
+.vieuxportimg
+{
+    height: 550px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/*Fort de Pomègues*/
 
 .fortdepomeguesimg
 {
@@ -727,24 +525,7 @@ body
     border-radius: 20px 20px 0px 0px;
 }
 
-.txtfortdepomegues
-{
-    padding: 10px;
-    padding-left: 20px;
-}
-
 /*Iles du Frioul*/
-
-.ilesdufrioul
-{
-
-    height: 210px;
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 10px 5px 5px #DAEBEB;
-    margin-left: 40px;  
-    
-}
 
 .ilesdufrioulimg
 {
@@ -753,61 +534,16 @@ body
     border-radius: 20px 20px 0px 0px;
 }
 
-.txtilesdufrioul
-{
-    padding: 10px;
-    padding-left: 20px;
-}
-
-/* Column 3*/
-
 /*Parc des Calanques*/
 
-.column3
-{
-    height: 600px;
-    width: 25%;
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 10px 5px 5px #DAEBEB;
-    margin-left: 40px;
-}
-
-.parcdecalanques
+.parcdecalanquesimg
 {
     height: 550px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
 
-.txtparcdecalanques
-{
-    padding: 10px;
-    padding-left: 20px;
-}
-
-/*Column 4*/
-
-.column4
-{
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    margin-right: 40px;
-}
-
 /*Notre Dame de la Garde*/
-
-.notredamedelagarde
-{
-
-    height: 350px;
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 10px 5px 5px #DAEBEB;
-    margin-left: 40px;
-    margin-bottom: 40px;
-}
 
 .notredamedelagardeimg
 {
@@ -816,36 +552,13 @@ body
     border-radius: 20px 20px 0px 0px;
 }
 
-.txtnotredamedelagarde
-{
-    padding: 10px;
-    padding-left: 20px;
-}
-
 /*Parc Longchamp*/
-
-.longchamp
-{
-
-    height: 210px;
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 10px 5px 5px #DAEBEB;
-    margin-left: 40px;  
-    
-}
 
 .longchampimg
 {
     height: 160px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
-}
-
-.txtlongchamp
-{
-    padding: 10px;
-    padding-left: 20px;
 }
 
 /*Footer*/
@@ -858,67 +571,20 @@ body
     padding: 50px;
 }
 
-/*A propos*/
-
-.aboutsection
+.footercolumn
 {
     display: flex;
     flex-direction: column;
     width: 40%;
 }
 
-.aboutitle
+.footertitle
 {
     font-size: large;
     padding-bottom: 20px;
 }
 
-.fonctionnement
-{
-    padding-bottom: 10px;
-}
-
-.conditions
-{
-    padding-bottom: 10px;
-}
-
-/*Nos hébergements*/
-
-.sectionnoshebergements
-{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-}
-
-.hebergementtitle
-{
-    font-size: large;
-    padding-bottom: 20px;
-}
-
-.chartequali
-{
-    padding-bottom: 10px;
-}
-
-/*Assistance*/
-
-.sectionassistance
-{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-}
-
-.assistancetitle
-{
-    font-size: large;
-    padding-bottom: 20px;
-}
-
-.aide
+.footertxt
 {
     padding-bottom: 10px;
 }
