@@ -1,0 +1,94 @@
+
+/*Filtres*/
+
+.filters
+{
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.filters p
+{
+    padding-left: 1rem;
+}
+
+.filters {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.filters p {
+    margin-bottom: 10px;
+}
+
+.selects
+{
+    padding: 0rem;
+    flex-wrap: wrap;
+}
+
+.etiq
+{
+    margin: 5px;
+    margin-left: 0px;
+}
+
+/*Hébergements à Marseille*/
+
+.toprow
+{
+    flex-direction: column;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.hostsection 
+{
+    width: 88%;
+    background-color:#F2F2F2;
+    margin: 2rem;
+}
+
+.hostsmarseilletitle 
+{
+    padding: 0rem 0rem 0rem 2rem;
+    margin-top: 2rem;
+}
+
+.hosttop, .hostbottom
+ {
+    flex-direction: column;
+    padding: 0rem;
+    align-items: center;
+    margin: 0px;
+}
+
+.blochotelmarseille 
+{
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.showmemore
+{
+    padding-left: 0px;
+    margin-left: 2rem;
+}
+
+/*Les plus populaires*/
+
+.famous {
+    width: 83%;
+    margin-left: 2rem;
+}
+
+/*Activités à Marseille*/
+
+.activitiesmarseilletitle
+{
+    margin-left: 1rem;
+    font-size: 20px;
+}
+

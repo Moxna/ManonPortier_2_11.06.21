@@ -1,3 +1,6 @@
+
+/*Nav*/
+
 .nav {
     justify-content: flex-start;
 }
@@ -32,6 +35,8 @@
     right: 0rem;
 }
 
+/*Section recherche*/
+
 .rechercher i {
     display: block;
     visibility: visible;
@@ -61,8 +66,12 @@
     margin-left: 1rem;
 }
 
+/*Filtres*/
+
 .filters
 {
+    flex-direction: column;
+    align-items: flex-start;
     padding-left: 0px;
     margin-left: 1rem;
 }
@@ -70,38 +79,6 @@
 .filters p
 {
     padding-left: 0px;
-}
-
-.info
-{
-    padding: 0px;
-    margin-left: 1rem;
-}
-
-.toprow {
-    flex-direction: column-reverse;
-}
-
-.famous {
-    width: 100%;
-    padding: 0rem;
-}
-
-.entetefamous {
-    margin: 0rem 1rem;
-}
-
-.blochotel {
-    margin: 1rem;
-    width: 90%;
-}
-
-.filters {
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.filters p {
     margin-bottom: 10px;
 }
 
@@ -117,6 +94,34 @@
     margin-left: 0px;
 }
 
+.info
+{
+    padding: 0px;
+    margin-left: 1rem;
+}
+
+/*Les plus populaires*/
+
+.toprow {
+    flex-direction: column-reverse;
+}
+
+.famous {
+    width: 100%;
+    padding: 0rem;
+}
+
+.entetefamous {
+    margin: 0rem 1rem;
+}
+
+/*Hébergements à Marseille*/
+
+.blochotel {
+    margin: 1rem;
+    width: 90%;
+}
+
 .hostsection {
     width: 100%;
     background-color: white;
@@ -127,6 +132,7 @@
 .hostsmarseilletitle {
     padding: 0rem 0rem 0rem 1rem;
 }
+
 .hosttop, .hostbottom {
     flex-direction: column;
     padding: 0rem;
@@ -147,6 +153,8 @@
     margin-left: 1rem;
 }
 
+/*Activités à Marseille*/
+
 .rowactivities {
     flex-direction: column;
     padding: 0px;
@@ -166,12 +174,6 @@
     margin: 0px;
 }
 
-.blocmoyen
-{
-    margin: 0px;
-    padding: 0px;
-}
-
 .blocmobile 
 {
     width: 90%;
@@ -186,6 +188,8 @@
     width: 100%;
     height: 100px;
 }
+
+/*Footer*/
 
 .blocfooter 
 {
