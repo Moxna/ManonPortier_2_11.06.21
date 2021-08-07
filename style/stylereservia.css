@@ -13,6 +13,14 @@
 body
 {
     font-family: 'Raleway' , sans-serif;
+    margin: auto;
+}
+
+
+.websitecontainer
+{
+    max-width: 1600px;
+    margin: auto;
 }
 
 /*Nav*/
@@ -155,7 +163,14 @@ body
     border-radius: 50px;
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
 
+}
+
+.etiq:hover
+{
+    background-color: #0065FC;
+    color: white;
 }
 
 .etiq i
@@ -264,32 +279,14 @@ body
     padding-left: 2rem;
 }
 
-/*La cannebiere*/
-
-.lacannebiere
+.imghost
 {
     width: 100%;
     height: 150px;
     border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
 }
 
-/*Hotel du port*/
-
-.hotelduport
-{
-    width: 100%;
-    height: 150px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-/*Hotel les mouettes*/
-
-.hotellesmouettes
-{
-    width: 100%;
-    height: 150px;
-    border-radius: 10px 10px 0px 0px;
-}
 
 /*Bottom blocs*/
 
@@ -301,32 +298,6 @@ body
     margin-top: 1rem;
 }
 
-/*Hotel de la mer*/
-
-.hoteldelamer
-{
-    width: 100%;
-    height: 150px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-/*Auberge le panier*/
-
-.aubergelepanier
-{
-    width: 100%;
-    height: 150px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-/*Hotel chez amina*/
-
-.hotelchezamina
-{
-    width: 100%;
-    height: 150px;
-    border-radius: 10px 10px 0px 0px;
-}
 
 /*Show me more*/
 
@@ -414,38 +385,16 @@ body
     margin-bottom: 10px;
 }
 
-/*Hotel le soleil*/
-
-.hotellesoleil
-{
-    height: 150px;
-    width: 40%;
-    clip: rect(0px,150px,150px,0px);
-    border-radius: 10px 0px 0px 10px;
-    
-}
-
-/*Au coeur de l'eau*/
-
-.aucoeurdeleau
+.imgfamous
 {
     height: 170px;
     width: 40%;
     clip: rect(0px,150px,150px,0px);
     border-radius: 10px 0px 0px 10px;
+    object-fit: cover;
     
 }
 
-/*Hotel tout bleu tout blanc*/
-
-.hoteltoutbleutoutblanc
-{
-    height: 170px;
-    width: 40%;
-    clip: rect(0px,150px,150px,0px);
-    border-radius: 10px 0px 0px 10px;
-    
-}
 
 /*Activités à Marseille*/
 
@@ -507,67 +456,43 @@ body
 }
 
 
-/*Vieux port*/
-
-.vieuxportimg
+.img550
 {
     height: 550px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
-/*Fort de Pomègues*/
 
-.fortdepomeguesimg
+.img300
 {
     height: 300px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
-/*Iles du Frioul*/
 
-.ilesdufrioulimg
+.img160
 {
     height: 160px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
-}
-
-/*Parc des Calanques*/
-
-.parcdecalanquesimg
-{
-    height: 550px;
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
-}
-
-/*Notre Dame de la Garde*/
-
-.notredamedelagardeimg
-{
-    height: 300px;
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
-}
-
-/*Parc Longchamp*/
-
-.longchampimg
-{
-    height: 160px;
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 /*Footer*/
+
+footer
+{
+    background-color: #F2F2F2;
+}
 
 .blocfooter
 {
     display: flex;
     flex-direction: row;
-    background-color: #F2F2F2;
     padding: 50px;
 }
 
